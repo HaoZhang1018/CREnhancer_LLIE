@@ -14,7 +14,7 @@ Code of Perceiving Image via Decomposing: A Component Regularization-based Low-l
 - [ ] Put paired or unpaired [I<sub>low</sub>,I<sub>well</sub>] in the "./low/..." and "./well/..." for training Enhancement network.
 
 #### Training :<br>
-- [ ] Run "CUDA_VISIBLE_DEVICES=X python DeNet_train.py" to train decomposition network.
+- [ ] Run "CUDA_VISIBLE_DEVICES=X python DNet_train.py" to train decomposition network.
 - [ ] Run "CUDA_VISIBLE_DEVICES=X python EnhanceGAN_train.py" to train enhancement network.
 
 #### Testing :<br>
