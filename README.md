@@ -19,4 +19,4 @@ Code of Perceiving Image via Decomposing: A Component Regularization-based Low-l
 
 #### Testing :<br>
 - [ ] Run "CUDA_VISIBLE_DEVICES=X python evaluate_EnhanceGAN.py" to enhance the provided low-light images.
-- [ ] You can also to visualize the decomposed components by running "CUDA_VISIBLE_DEVICES=X python evaluate_DNet.py".
+- [ ] You can also visualize the decomposed components by running "CUDA_VISIBLE_DEVICES=X python evaluate_DNet.py".
