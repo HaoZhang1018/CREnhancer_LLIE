@@ -168,7 +168,7 @@ for idx in range(len(eval_low_data_name)):
     eval_low_im = load_images_no_norm(eval_low_data_name[idx])
     eval_low_data.append(eval_low_im)
 
-eval_high_data_name =  glob('./high/*.png')
+eval_high_data_name =  glob('./well/*.png')
 eval_high_data_name.sort()
 for idx in range(len(eval_high_data_name)):
     eval_high_im = load_images_no_norm(eval_high_data_name[idx])
